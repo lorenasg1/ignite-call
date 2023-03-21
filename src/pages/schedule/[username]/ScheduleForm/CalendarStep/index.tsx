@@ -11,14 +11,15 @@ export function CalendarStep() {
   const isDateSelected = true
 
   return (
-    <Container isTimePIckerOpen={isDateSelected}>
+    <Container isTimePickerOpen={isDateSelected}>
       <Calendar />
 
       {isDateSelected && (
         <TimePicker>
           <TimePickerHeader>
-            quarta-feira <span>1º de março</span>
+            terça-feira <span>21 de março</span>
           </TimePickerHeader>
+
           <TimePickerList>
             <TimePickerItem>08:00h</TimePickerItem>
             <TimePickerItem>09:00h</TimePickerItem>

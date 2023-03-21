@@ -52,7 +52,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       user: {
         name: user.name,
-        bio: user.bio,
+        // bio: user.bio,
         avatarUrl: user.avatar_url,
       },
     },
